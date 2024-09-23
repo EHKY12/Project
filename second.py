@@ -9,7 +9,7 @@ dataset = load_dataset("imdb")
 train_dataset = dataset["train"]
 test_dataset = dataset["test"]
 
-# Hugging Face에서 8비트 양자화 적용 설정
+# Hugging Face에서 4비트 양자화 적용 설정
 bnbConfig = BitsAndBytesConfig(
     load_in_4bit = True,
     bnb_4bit_quant_type="nf4",
