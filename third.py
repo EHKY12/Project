@@ -65,11 +65,12 @@ import os
 
 # GPU 0만 사용하도록 설정
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+// gpu 가 여러개 있는 경우 
 
 # Stable Diffusion 모델 경로
 sd_model_path = "CompVis/stable-diffusion-v1-4"  # Stable Diffusion 기본 모델 경로
 
-# 감정 분석 모델 경로 (감정 분석에 더 적합한 모델 사용) bert model 사용 
+# 감정 분석 모델 경로 (감정 분석에 더 적합한 모델 사용)
 sentiment_model_path = "nlptown/bert-base-multilingual-uncased-sentiment"
 
 # 감정 분석 모델 및 토크나이저 로드
