@@ -10,21 +10,21 @@ Multi-GPU Support: Allows the selection of specific GPU(s) for model training an
 
 
 ## Installation
-To run this project, you need to set up the required dependencies.
+###  To run this project, you need to set up the required dependencies.
 
-### git clone https://github.com/your-username/emotion-image-generation.git
-### cd emotion-image-generation
+ git clone https://github.com/your-username/emotion-image-generation.git
+ cd emotion-image-generation
 
-Create a virtual environment and activate it:
+### Create a virtual environment and activate it:
 
-### python3 -m venv venv
-### source venv/bin/activate  # On Windows: venv\Scripts\activate
+ python3 -m venv venv
+ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Run the training script (if you want to fine-tune the Gemma 2 model): 
-### python second.py ## this one is training python file :)
+### Run the training script (if you want to fine-tune the Gemma 2 model): 
+ python second.py ## this one is training python file :)
 
-Run the inference script to generate images based on user input
-### python third.py ## this one is generating image python file 
+### Run the inference script to generate images based on user input
+python third.py ## this one is generating image python file 
 
 ## Example 
 "I feel a bit stressed after a long day at work."
