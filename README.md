@@ -32,5 +32,7 @@ python third.py ## this one is generating image python file
 ## Results
 The generated images are saved in the working directory. After running the image generation script, you will find the output images saved as sd_generated_image.png.  
 
+# Result of the project is posted here : https://github.com/sepengsu/googleMLB5/blob/main/project1/
+
 ## License
 This project is licensed under the MIT License.
